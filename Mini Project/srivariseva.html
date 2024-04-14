@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    <style>
+        *{
+        outline:none;
+        margin:0px;
+        padding:0px;
+        overflow-x: hidden;
+        overflow-y: hidden;
+
+
+        
+    }
+    .top {
+            width: 99.2%;
+            height: 15vh;
+            background-color: rgb(96, 6, 179, 1);
+            border: 2px solid rgb(96, 6, 179, 1);
+            position: relative;
+        }
+
+        .main {
+            width: 99.5%;
+            height: 10vh;
+            background-color: orange;
+            border-bottom-left-radius: 13%;
+            border-bottom-right-radius: 13%;
+            position: absolute;
+        }
+
+        .inner {
+            width: 200px;
+            height: 55px;
+            position: absolute;
+            left: 5px;
+            top: 5px;
+            /* border:2px solid blue; */
+            
+        }
+        .a{
+           
+    width:99.5%;
+    height:20vh;
+    /* border:2px solid blue; */
+    position:relative;
+    background-image: url("https://media.istockphoto.com/id/506239579/vector/vector-om-background.jpg?s=612x612&w=0&k=20&c=4vuHdidIfAz_KTwPfugfYPi-aBzzXsZi8B8wqS525us=");
+    z-index:1;
+}
+        .b1{
+            width:99.5%;
+            height:60vh;
+    
+            /* border:2px solid blue; */
+            /* background-image: url("https://w.forfun.com/fetch/4d/4d7abe408b9c0e4cb5399df41e6d6a5b.jpeg"); */
+        }
+        .b1 img{
+            width:100%;
+            height:100%;
+        }
+        .b{
+    width:96%;
+    height:18vh;
+    position: absolute;
+    /* border:2px solid green; */
+    left:10px;
+    /* right:10px; */
+    top:2px;
+}
+.b img{
+    position:absolute;
+}
+#c1{
+    left:20px;
+}
+#c2{
+    left:200px;
+}
+#c7{
+    left:400px;
+}
+.c{
+    width:50%;
+    height:50vh;
+    /* border:2px solid blue; */
+    position:relative;
+    top:-190px;
+    left:20px;
+}
+.c img{
+    width:100%;
+    height:100%;
+}
+.d{
+    width:280px;
+    height:53vh;
+    border:1px solid rgb(255, 251,246);
+    border-radius:5px;
+    position:relative;
+    top:-390px;
+    left:400px;
+    z-index: 1;
+    background: transparent;
+    /* background-color: rgb(255, 251, 246); */
+}
+#reg{
+position:relative;
+left:90px;
+top:2px;
+color:rgb(240, 232, 232);
+}
+.ca{
+    /* margin: auto; */
+    position: relative;
+    left:100px;
+    top:-5px;
+    color: rgb(234, 54, 54);
+    /* font-size: 5px; */
+}
+.log{
+    /* left:60px; */
+    position: relative;
+    /* border:2px solid blue; */
+    background-color: rgb(173, 5, 5);
+    color:white;
+    text-align: center;
+    width:250px;
+    left:10px;
+}
+.de{
+    /* border:2px solid blue; */
+    width:50px;
+    left:60px;
+    position: relative;
+    background-color: rgb(233, 223, 223);
+    border-radius: 5px;
+    /* margin: 5px; */
+}
+.ent{
+    width:60px;
+    /* border:2px solid blue; */
+    position:relative;
+    left:130px;
+    top:-22px;
+    height:22px;
+    background-color: white;
+    border-radius: 5px;
+}
+#lo{
+    position: relative;
+    left:20px;
+    top:2px;
+    color:rgb(214, 10, 10);
+    border-radius: 5px;
+    
+}
+/* #f{
+    width:100%;
+    height:5vh;
+    border:2px solid blue;
+    position: relative;
+    font-size: 11px;
+} */
+input{
+    font-size:12px;
+}
+.c1 {
+            left: 330px;
+            position: absolute;
+            top: 5px;
+            
+        }
+
+        .c3 {
+            position: absolute;
+            right: 0px;
+            top: 0px;
+        }   
+        .sub {
+            width: 98%;
+            height: 10vh;
+            position: absolute;
+            display: flex;
+            justify-content: space-around;
+            font-size: 10px;
+            top: 45px;
+            color: white;
+        }
+  
+
+    #D {
+        
+        display: none;
+            width: 20%;
+            height: 65vh;
+            background-color: white;
+            position: absolute;
+            left: 168px;
+            z-index: 10;
+            overflow: auto;
+            color: black;
+            top: 20px;
+            border-radius: 20px;
+            padding: 5px;
+    }
+  
+    .h1 {
+        width: 180px;
+        height: 200px;
+        position: absolute;
+        /* border:2px solid blue; */
+        left: 220px;
+        top: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: top;
+        z-index: 11;
+        background-color: white;
+        display: none;
+        border-radius: 15px;
+    }
+
+    .h1 img {
+        position: absolute;
+        top: 5px;
+        left: 65px;
+    }
+    #l {
+        position: absolute;
+        top: 65px;
+        font-size: 11px;
+        font: bold;
+        left: 76px;
+
+    }
+
+    #m {
+        position: absolute;
+        top: 90px;
+        font-size: 10px;
+        left: 20px;
+    }
+
+    #n {
+        position: absolute;
+        top: 105px;
+        left: 20px;
+        font-size: 10px;
+    }
+
+    .z {
+        width: 140px;
+        position: absolute;
+        top: 130px;
+        /* height:1px; */
+        border: 0.5px solid black;
+        left: 20px;
+
+
+    }
+
+    .y {
+        width: 150px;
+        height: 20px;
+        /* border:2px solid blue; */
+        position: absolute;
+        top: 160px;
+        left: 20px;
+        border-radius: 10px;
+        background-color: rgb(130, 10, 243, 0.5);
+    }
+
+    .y p {
+
+        position: absolute;
+        bottom: -1px;
+        left: 60px;
+        font-size: 8px;
+        color: white;
+    }
+    #v2 {
+        color: white;
+        font-size: 8px;
+        left: 470px;
+        position: absolute;
+        /* top:5px; */
+    }
+
+    #v1 {
+        font-size: 13px;
+        color: white;
+        top: 10px;
+        left: 470px;
+        position: absolute;
+    }
+    #A{
+        display: inline;
+    }
+    #B{
+        display:none;
+    }
+   
+        
+    </style>
+</head>
+<body>
+    <div class="top">
+        <div class="main">
+            <div class="inner">
+                <img src="https://online.tirupatibalaji.ap.gov.in/misc/images/v4/TTD_Logo%20(1).png?w=640" width="200px"
+                    height="25px" />
+            </div>
+            <div class="c1">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRh-AOZ8wFu3Ru33ro1nVjx1Ix2AzxOj24JiQ&usqp=CAU"
+                    width="65px" height="25px" id="c1" />
+            </div>
+            <div class="c2">
+                <p id="v2">Namaskaram Pilgrim</p>
+                <p id="v1" onclick="fun6()">Om Namo Venkatesaya <i class="fa-solid fa-volume-xmark" id="A"></i> <i class="fa-solid fa-volume-low" id="B"></i></p>
+            </div>
+
+            <div class="c3">
+                <img src="https://tirumalahills.files.wordpress.com/2016/02/12671788_663296727146247_3345380903312060630_o.jpg"
+                    width="100px" height="32px" />
+
+            </div>
+        </div>
+    </div>
+    <div class="sub">
+        <div onclick="func()"><i class="fa-solid fa-house"></i></div>
+        <div onclick="fun1()">About TTD</div>
+        <div onclick="fun()">Online Services <i class="fa-solid fa-chevron-down"></i> </div>
+        <div onClick="fun7()">eBook</div>
+        <div onClick="fun8()">News</div>
+        <div onClick="fun9()">Srivari Seva</div>
+        <div onClick="fun3()">SVBC</div>
+        <div onclick="fun3()">Temples</div>
+        <div onclick="fun2()"><i class="fa-solid fa-arrow-right-to-bracket"></i> Log In</div>
+</div>
+    <div class="h1">
+        <img src="https://ttdevasthanams.ap.gov.in/ttd_logo_govinda.svg" />
+        <p id="l">Log in</p>
+        <p id="m">Registered mobile number</p>
+        <p id="n">(+91)</p>
+        <div class="z"></div>
+        <div class="y">
+            <p>Get OTP</p>
+        </div>
+    </div>
+
+    
+    <div class="a">
+        <div class="b">
+            <img src="https://www.tirumala.org/NewImages/TTD-Logo.png" width="100px" height="70px" id="c1"/>
+            <img src="https://www.tirumala.org/NewImages/HD-TXT.png" width="190px" height="70px" id="c2"/>
+            <img src="https://www.tirumala.org/NewImages/TTD-Head-Img.png" width="170px" height="70px" id="c7"/>
+        </div>
+    </div>
+   <div class="b1">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTPP-PJlPNw7GtqGNm0cll-2VFtMdqVa6IopEws_6dE7A&s"/>
+    <!-- <div class="c"></div> -->
+   </div>
+   <div class="c">
+    <img src="https://www.pilgrimagetour.in/blog/wp-content/uploads/2023/09/Tirumala-Tirupati-Balaji-Temple-Timings.jpg"/>
+   </div>
+   <div class="d">
+    <span id="lo">Login</span>
+    <span id="reg" onClick="fun12()">      Registered</span>
+    
+       <br/>
+    <pre>   
+        <input type="text" placeholder="Enter email"/>
+
+        <input type="password" placeholder="Enter Password"/>
+   </pre>
+    <div class="ca">Captcha</div>
+    <div class="de"> rac83t</div>
+    <div class="ent"></div>
+    <div class="log" onclick="fun11()"> Login</div>
+   </div>
+   <!-- <p>Hello</p> -->
+   
+    <!-- <pre id="f"> Copyright 2021 Tirumala Tirupati Devasthanams (TTD), All rights reserved       Home| Seva Instruction | Contact Us</pre> -->
+  
+   <!-- <div class="foot"></div> -->
+</body>
+<script>
+    let fun12=()=>{
+        window.location="reg.html"
+    }
+    let fun11=()=>{
+        window.location="html.html"
+    }
+    
+            let k = document.getElementsByClassName("h1")[0]
+
+            let c = 0
+            let fun = () => {
+                window.location="html.html"
+            }
+            let fun1 = () => {
+                window.location = "about.html"
+
+            }
+            let c1 = 0
+            let fun2 = () => {
+                c1 = c1 + 1
+                if (c1 % 2 != 0) {
+                    k.style.display = "block"
+                }
+                else {
+                    k.style.display = "none"
+                }
+            }
+            let c2 = 0
+            let fun3 = () => {
+                c2 = c2 + 1
+                if (c2 % 2 != 0) {
+                    k.style.display = "block"
+                }
+                else {
+                    k.style.display = "none"
+                }
+            }
+            let c3 = 0
+            let fun4 = () => {
+                c3 = c3 + 1
+                if (c3 % 2 != 0) {
+                    k.style.display = "block"
+                }
+                else {
+                    k.style.display = "none"
+                }
+            }
+            let c4 = 0
+            let fun5 = () => {
+                c4 = c4 + 1
+                if (c4 % 2 != 0) {
+                    k.style.display = "block"
+                }
+                else {
+                    k.style.display = "none"
+                }
+            }
+
+            function fun6() {
+                var elemA = document.getElementById("A");
+                var elemB = document.getElementById("B");
+
+                if (elemB.style.display === "none") {
+                    elemB.style.display = "inline";
+                    elemA.style.display = "none";
+                } else {
+                    elemB.style.display = "none";
+                    elemA.style.display = "inline";
+                }
+            }
+            let fun7=()=>{
+                window.location = "ebook.html"
+            }
+            let fun8=()=>{
+                window.location="news.html"
+            }
+            let fun9=()=>{
+                window.location="srivariseva.html"
+            }
+            let func=()=>{
+                window.location="html.html"
+            }
+</script>
+</html>

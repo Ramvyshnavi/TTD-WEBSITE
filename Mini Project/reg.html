@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <Style>
+        *{
+    outline:none;
+    margin:0px;
+    padding:0px;
+}
+        .a{
+    width:100%;
+    height:20vh;
+    /* border:2px solid blue; */
+    position:relative;
+    background-image: url("https://media.istockphoto.com/id/506239579/vector/vector-om-background.jpg?s=612x612&w=0&k=20&c=4vuHdidIfAz_KTwPfugfYPi-aBzzXsZi8B8wqS525us=");
+    margin-bottom: 50px;
+}
+.b{
+    width:96%;
+    height:18vh;
+    position: absolute;
+    /* border:2px solid green; */
+    left:10px;
+    /* right:10px; */
+    top:2px;
+}
+.b img{
+    position:absolute;
+}
+#c1{
+    left:100px;
+}
+#c2{
+    left:280px;
+}
+#c3{
+    left:550px;
+}
+.c{
+    
+    width:40%;
+    height:50vh;
+    /* border:2px solid blue; */
+    margin:auto;
+    background-color: rgba(239, 237, 237, 0.87);
+}
+#back{
+    width:60px;
+    height:15px;
+    /* border:2px solid blue; */
+    position: relative;
+    top:-44px;
+    left:250px;
+    background-color: rgb(140, 4, 4);
+    color:white;
+    font-size: 15px;
+    border-radius: 5px;
+}
+#submit{
+    width:60px;
+    height:15px;
+    /* border:2px solid blue; */
+    position:relative;
+    top:-45px;
+    left:400px;
+    background-color:  rgb(140, 4, 4);
+    color:white;
+    font-size: 15px;
+    border-radius: 5px;
+}
+#p{
+    color:brown;
+    font-family: 'Times New Roman', Times, serif;
+}
+input{
+    font-size: 10px;
+    width:120px;
+}
+
+    </Style>
+</head>
+<body>
+    <div class="a">
+        <div class="b">
+            <img src="https://www.tirumala.org/NewImages/TTD-Logo.png" width="100px" height="70px" id="c1"/>
+            <img src="https://www.tirumala.org/NewImages/HD-TXT.png" width="190px" height="70px" id="c2"/>
+            <img src="https://www.tirumala.org/NewImages/TTD-Head-Img.png" width="170px" height="70px" id="c3"/>
+        </div>
+    </div>
+    <div class="c">
+        <pre id="p">         Register Your Account       </pre>
+       <pre> 
+        <input type="text" placeholder="Enter email"/>
+
+        <input type="password" placeholder="Enter Password"/>
+
+        <input type="password" placeholder="Confirm Password"/>
+    </pre>
+    </div>
+    <span id="back" onClick="fun()">Back</span>
+    <span id="submit" onclick="fun1()">Submit</span>
+</body>
+<script>
+    let fun=()=>{
+        window.location="srivariseva.html"
+    }
+    let fun1=()=>{
+        window.location="html.html"
+    }
+</script>
+</html>

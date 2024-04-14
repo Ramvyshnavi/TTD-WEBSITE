@@ -1,0 +1,411 @@
+*{
+    outline: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+.top{
+width:100%;
+height:12vh;
+background-color: rgb(73, 1, 1);
+top:20vh;
+/* position: fixed;
+z-index: 100; */
+}
+.search input{
+position:absolute;
+right:130px;
+top:20vh;
+font-size: 10px;
+}
+.searicon{
+position:absolute;
+top:21vh;
+right:140px;
+color:black;
+font-size:8px;
+opacity: 0.5;
+z-index: 11;
+}
+
+.t{
+position:absolute;
+top:18vh;
+right:10px;
+color:yellow;
+size:5px;
+font-size: 15px;
+
+}
+#c1{
+font-size: 10px;
+}
+.second{
+width:100%;
+height:15vh;
+/* margin-top: 12vh; */
+/* border:2px solid green; */
+position:relative;
+/* z-index: 99; */
+}
+.second img{
+width:100%;
+height:100%;
+}
+#c{
+position:absolute;
+left:330px;
+top:15px;
+}
+.t:hover{
+color:white;
+}
+.third{
+width:100%;
+height:8vh;
+/* border:1px solid green; */
+display: flex;
+justify-content: center;
+align-items: center;
+gap:5px;
+
+
+}
+.third.active{
+position: fixed;
+top:10vh;
+z-index: 10;
+margin-top: 2px;
+background-color: aliceblue;
+}
+.third div{
+display: flex;
+align-items: center;
+}
+#a{
+font-size: 8px;
+/* border:1px solid green; */
+background-color: rgb(125, 125, 249);
+height:15px;
+/* top:5px; */
+/* position: absolute; */
+border-radius: 2px;
+}
+#b{
+font-size: 8px;
+/* border:1px solid green; */
+background-color: cadetblue;
+height:15px;
+border-radius: 2px;
+}
+#c2{
+font-size: 8px;
+/* border:1px solid green; */
+background-color: orange;
+height:15px;
+border-radius: 2px;
+}
+#d{
+font-size: 8px;
+/* border:1px solid green; */
+background-color: rgb(5, 197, 5);
+height:15px;
+border-radius: 2px;
+}
+#e{
+font-size: 8px;
+/* border:1px solid green; */
+background-color: pink;
+height:15px;
+border-radius: 2px;
+}
+#f{
+font-size: 8px;
+/* border:1px solid green; */
+background-color: rgb(69, 69, 145);
+height:15px;
+border-radius: 2px;
+}
+#i{
+font-size: 8px;
+/* border:1px solid green; */
+background-color: rgb(254, 39, 39);
+height:15px;
+border-radius: 2px;
+}
+#j{
+font-size: 8px;
+/* border:1px solid green; */
+background-color: rgb(109, 0, 109);
+height:15px;
+border-radius: 2px;
+}
+#k{
+font-size: 8px;
+/* border:1px solid green; */
+background-color: rgb(233, 62, 0);
+height:15px;
+border-radius: 2px;
+}
+#g{
+font-size: 8px;
+/* border:1px solid green; */
+background-color: cadetblue;
+height:15px;
+border-radius: 2px;
+}
+.four{
+width:100%;
+height:50vh;
+/* border:1px solid brown; */
+/* margin-bottom: 8px; */
+}
+.four img{
+width:100%;
+height:100%;
+}
+.fa-less-than{
+position:absolute;
+left:10px;
+top:48%;
+color:crimson;
+font-size: 35px;
+}
+.fa-greater-than{
+position:absolute;
+right:10px;
+top:40%;
+color:crimson;
+font-size:35px;
+}
+
+.foot{
+width:100%;
+height:45vh;
+/* border:2px solid green; */
+position: relative;
+background-color: rgb(73, 1, 1);
+}
+h3{
+position:absolute;
+left:110px;
+top:20px;
+color:white;
+}
+#z{
+position:absolute;
+left:110px;
+color:yellow;
+top:50px;
+font-size:10px;
+}
+#y{
+position:absolute;
+left:110px;
+color:white; 
+top:74px;
+font-size:10px;
+}
+#x{
+position:absolute;
+left:110px;
+color:white;
+top:84px;
+font-size:10px;
+}
+#w{
+position:absolute;
+left:110px;
+color:whitesmoke;
+top:94px;
+font-size:10px;
+}
+
+.footer{
+width:90%;
+border: 0.19px solid rgb(255, 255, 76);
+position:absolute;
+left:45px;
+top:140px;
+}
+#p{
+font-size: 10px;
+color:blue;
+top:150px;
+position: absolute;
+left:557px;
+font-size: 8px;
+
+}
+pre{
+font-size: 8px;
+color:white;
+position:absolute;
+top:150px;
+left:50px;
+
+}
+.four img{
+width:100%;
+height:100%;
+}
+/* .dotcon{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+} */
+.top1 {
+    width: 100%;
+    height: 15vh;
+    background-color: rgb(96, 6, 179, 1);
+    border: 2px solid rgb(96, 6, 179, 1);
+    position: relative;
+}  
+.main {
+    width: 100%;
+    height: 10vh;
+    background-color: orange;
+    border-bottom-left-radius: 13%;
+    border-bottom-right-radius: 13%;
+    position: absolute;
+}
+
+.inner {
+    width: 25px;
+    height: 55px;
+    position: absolute;
+    border-radius: 50%;
+    left: 5px;
+    top: 5px;
+}
+
+.c1 {
+    left: 330px;
+    position: absolute;
+    top: 5px;
+    
+}   
+.c3 {
+    position: absolute;
+    right: 0px;
+    top: 0px;
+}
+
+.sub {
+    width: 98%;
+    height: 10vh;
+    position: absolute;
+    display: flex;
+    justify-content: space-around;
+    font-size: 10px;
+    top: 45px;
+    color: white;
+}
+#d1 {
+    display: none;
+    width: 20%;
+    height: 65vh;
+    background-color: white;
+    position: absolute;
+    left: 168px;
+    z-index: 1;
+    overflow: auto;
+    color: black;
+    top: 20px;
+    border-radius: 20px;
+    padding: 5px;
+}
+.h1 {
+    width: 180px;
+    height: 200px;
+    position: absolute;
+    /* border:2px solid blue; */
+    left: 220px;
+    top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: top;
+    z-index: 1;
+    background-color: white;
+    display: none;
+    border-radius: 15px;
+}
+
+.h1 img {
+    position: absolute;
+    top: 5px;
+    left: 65px;
+}
+#l {
+    position: absolute;
+    top: 65px;
+    font-size: 11px;
+    font: bold;
+    left: 76px;
+
+}
+
+#m {
+    position: absolute;
+    top: 90px;
+    font-size: 10px;
+    left: 20px;
+}
+
+#n {
+    position: absolute;
+    top: 105px;
+    left: 20px;
+    font-size: 10px;
+}
+
+.z {
+    width: 140px;
+    position: absolute;
+    top: 130px;
+    /* height:1px; */
+    border: 0.5px solid black;
+    left: 20px;
+
+
+}
+
+.y {
+    width: 150px;
+    height: 20px;
+    /* border:2px solid blue; */
+    position: absolute;
+    top: 160px;
+    left: 20px;
+    border-radius: 10px;
+    background-color: rgb(130, 10, 243, 0.5);
+}
+
+.y p {
+
+    position: absolute;
+    bottom: -1px;
+    left: 60px;
+    font-size: 8px;
+    color: white;
+}
+#v2 {
+    color: white;
+    font-size: 8px;
+    left: 470px;
+    position: absolute;
+}
+
+#v1 {
+    font-size: 13px;
+    color: white;
+    top: 10px;
+    left: 470px;
+    position: absolute;
+}
+#A{
+    display: inline;
+}
+#B{
+    display: none;
+}
